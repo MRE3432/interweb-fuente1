@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(245, 245, 220); /* Light beige color for old paper look */
+    color: rgb(0, 0, 0); /* Black text color */
+    font-family: 'Times New Roman', Times, serif; /* Classic newspaper font */
+    line-height: 1.6; /* Increase line height for readability */
+    margin: 0;
+    padding: 20px;
+}
+
+.title-box {
+    background-color: rgb(245, 245, 220); /* Match the body background */
+    border: 1px solid black; /* Black border for a classic look */
+    padding: 20px;
+    text-align: left; /* Left align text */
+    box-shadow: none; /* Remove shadow */
+    margin: 20px auto;
+    width: 80%;
+    font-family: 'Times New Roman', Times, serif; /* Ensure font consistency */
+}
+
+.title-box h1 {
+    margin: 0;
+    font-size: 2em; /* Larger font size for headlines */
+    font-weight: bold; /* Bold for emphasis */
+}
+
+.title-box p {
+    margin-top: 20px;
+    font-size: 1em; /* Standard font size for body text */
+}
